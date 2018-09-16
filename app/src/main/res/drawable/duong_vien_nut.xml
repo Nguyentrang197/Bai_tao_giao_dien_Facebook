@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/black_dark">
+    </solid>
+
+    <!-- đặt thuộc tính màu và độ rộng của đường viền -->
+    <stroke
+        android:width="3dp"
+        android:color="@color/black_dark" >
+    </stroke>
+
+    <!-- các thuộc tính căn chỉnh-->
+    <padding
+        android:left="@dimen/edt_margin_left"
+        android:top="@dimen/edt_margin_top"
+        android:right="@dimen/edt_margin_right"
+        android:bottom="@dimen/edt_margin_bottom" >
+    </padding>
+
+    <!-- và đây là bán kính đường tròn ở 4 góc -->
+    <corners
+        android:radius="5dp" >
+    </corners>
+
+</shape>
